@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "start:dev": "gulp",
-    "preinstall": "npm install",
+    "prestart": "npm install",
     "postinstall": "jspm install --yes",
     "build": "gulp dist",
     "start": "node server.js",
