@@ -1,0 +1,135 @@
+{
+    "name": "cunning",
+    "totalScore": 0,
+    "skillTree":[
+        {
+            "level":0,
+            "status":1,
+            "skills":[
+                {
+                    "img":"assassin-cunning-0.png",
+                    "assignedScore": 0,
+                    "remainingScore": 5,
+                    "dataBase": 5,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Fast Hands",
+                        "increases": "Reload Speed and Weapon Swap Speed"
+                    }
+                },
+                {
+                    "img":"assassin-cunning-1.png",
+                    "assignedScore": 0,
+                    "remainingScore": 5,
+                    "dataBase": 50,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "C0unter Strike",
+                        "increases": "After getting hit, your next melee attack has a chance to deal damage"
+                    }
+                }
+            ]
+        },
+        {
+            "level":1,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-cunning-2.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 5,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Fearless",
+                        "increases": "Fire Rate and Gun Damage when your shield is depleted."
+                    }
+                },
+                {
+                    "img":"assassin-cunning-3.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 4,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Ambush",
+                        "increases": "Damage  when attacking enemies from behind or when attacking an enemy who is targeting someone other than you."
+                    }
+                }
+            ]
+        },
+        {
+            "level":2,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-cunning-4.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 2,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Rising Sh0t",
+                        "increases": "Each successful ranged or melee attack gives you Gun Damage and Melee Damage  for a short time. This bonus can stack up to 5 times. Faster weapons can gain stacks more quickly, but slower weapons retain stacks for a longer period of time."
+                    }
+                },
+                {
+                    "img":"assassin-cunning-5.png",
+                    "assignedScore":0,
+                    "remainingScore": 1,
+                    "dataBase": 20,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Death Mark",
+                        "increases": "Dealing melee damage marks a target for 8 seconds. Marked targets take additional damage from all sources."
+                    }
+                },
+                {
+                    "img":"assassin-cunning-6.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 10,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Unf0rseen",
+                        "increases": "Your holographic decoy explodes when you become visible again, causing shock damage to nearby enemies. Damage increases"
+                    }
+                }
+            ]
+        },
+        {
+            "level":3,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-cunning-7.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 2,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Innervate",
+                        "increases": "While Decepti0n is active you gain Gun Damage, Movement Speed, and regenerate of your Maximum Health per second"
+                    }
+                }
+            ]
+        },
+        {
+            "level":4,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-cunning-8.png",
+                    "assignedScore":0,
+                    "remainingScore": 1,
+                    "dataBase": 6,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Tw0 Fang",
+                        "increases": "Every time you fire you have a chance to fire twice."
+                    }
+                }
+            ]
+        }
+    ]
+}

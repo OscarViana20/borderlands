@@ -1,0 +1,15 @@
+<div ng-mouseover="skillController.addTips();"
+     ng-mousemove="skillController.moveTips($event);"
+     ng-mouseleave="skillController.removeTips();"
+     ng-click="skillController.assignScore();"
+     rigth-click = "skillController.removeScore();"
+     class = "skill {{skillController.skill.assignedScore > 0 && skillController.skill.assignedScore <
+                      skillController.skill.remainingScore ? 'partial' :
+              (skillController.skill.assignedScore == skillController.skill.remainingScore ? 'full' : '')}}">
+    <img ng-src="app/assets/images/icons/{{skillController.skill.img}}"></img>
+    <div class = "skill-points"
+         style = "visibility:{{skillController.level.status ? 'visible' : 'hidden'}}">
+        {{skillController.skill.assignedScore}}/{{skillController.skill.remainingScore}}
+    </div>
+</div>
+

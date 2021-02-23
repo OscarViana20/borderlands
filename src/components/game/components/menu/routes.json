@@ -1,0 +1,11 @@
+/*[
+    {
+        'parent': 'menu',
+        'views': '{ "main": "content"}',
+        "stateName": "nextLevel",
+        "urlPrefix": "/nextLevel",
+        "type": "load",
+        "src": "components/game/components/menu/nextLevel"
+    }
+]*/
+

@@ -1,0 +1,135 @@
+{
+    "name": "bloodshed",
+    "totalScore": 0,
+    "skillTree":[
+        {
+            "level":0,
+            "status":1,
+            "skills":[
+                {
+                    "img":"assassin-bloodshed-0.png",
+                    "assignedScore": 0,
+                    "remainingScore": 5,
+                    "dataBase": 10,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Optics",
+                        "increases": "your Zoom with all gun types"
+                    }
+                },
+                {
+                    "img":"assassin-bloodshed-1.png",
+                    "assignedScore": 0,
+                    "remainingScore": 5,
+                    "dataBase": 10,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "HeadShot",
+                        "increases": "Critical Hit Damage"
+                    }
+                }
+            ]
+        },
+        {
+            "level":1,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-bloodshed-2.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 10,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Optics",
+                        "increases": "your Zoom with all gun types"
+                    }
+                },
+                {
+                    "img":"assassin-bloodshed-3.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 10,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "HeadShot",
+                        "increases": "Critical Hit Damage"
+                    }
+                }
+            ]
+        },
+        {
+            "level":2,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-bloodshed-4.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 10,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Optics",
+                        "increases": "your Zoom with all gun types"
+                    }
+                },
+                {
+                    "img":"assassin-bloodshed-5.png",
+                    "assignedScore":0,
+                    "remainingScore": 1,
+                    "dataBase": 10,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "HeadShot",
+                        "increases": "Critical Hit Damage"
+                    }
+                },
+                {
+                    "img":"assassin-bloodshed-6.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 10,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "HeadShot",
+                        "increases": "Critical Hit Damage"
+                    }
+                }
+            ]
+        },
+        {
+            "level":3,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-bloodshed-7.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 10,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Optics",
+                        "increases": "your Zoom with all gun types"
+                    }
+                }
+            ]
+        },
+        {
+            "level":4,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-bloodshed-8.png",
+                    "assignedScore":0,
+                    "remainingScore": 1,
+                    "dataBase": 10,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Optics",
+                        "increases": "your Zoom with all gun types"
+                    }
+                }
+            ]
+        }
+    ]
+}

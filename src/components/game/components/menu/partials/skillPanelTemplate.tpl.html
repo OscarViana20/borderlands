@@ -1,0 +1,20 @@
+<div layout = "column" class="treewrapper">
+    <div class="panel"></div>
+    <div class="tree">
+        <div ng-repeat="level in skillPanelController.skillTree" layout = "row" layout-align="space-between center"
+             style="{{level.skills.length == 1 ? 'justify-content: center': ''}}">
+            <div ng-repeat="skill in level.skills" layout = "column">
+                <skill-directive skill = "skill"
+                                 level = "level"
+                                 skill-tree = "skillPanelController.skillTree"
+                                 total-score = "skillPanelController.totalScore"></skill-directive>
+            </div>
+        </div>
+        <div class="legend {{skillPanelController.name}}">
+            {{skillPanelController.name | uppercase}}
+        </div>
+        <div class="totalScore">
+            {{skillPanelController.totalScore}}
+        </div>
+    </div>
+</div>

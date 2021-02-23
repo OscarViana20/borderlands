@@ -1,0 +1,135 @@
+{
+    "name": "spining",
+    "totalScore": 0,
+    "skillTree":[
+        {
+            "level":0,
+            "status":1,
+            "skills":[
+                {
+                    "img":"assassin-sniping-0.png",
+                    "assignedScore": 0,
+                    "remainingScore": 5,
+                    "dataBase": 4,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "HeadSh0t",
+                        "increases": "Critical Hit Damage"
+                    }
+                },
+                {
+                    "img":"assassin-sniping-1.png",
+                    "assignedScore": 0,
+                    "remainingScore": 5,
+                    "dataBase": 12,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Optics",
+                        "increases": "Aim Steadiness (reduces aim disruption when taking damage)"
+                    }
+                }
+            ]
+        },
+        {
+            "level":1,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-sniping-2.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 10,
+                    "dataWin": 0,
+                        "description":{
+                        "name": "Killer",
+                        "increases": "Kill Skill. Killing an enemy gives you Critical Hit Damage and Reload Speed for few seconds."
+                    }
+                },
+                {
+                    "img":"assassin-sniping-3.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 5,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Precisi0n",
+                        "increases": "Accuracy"
+                    }
+                }
+            ]
+        },
+        {
+            "level":2,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-sniping-4.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 12,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "0ne Sh0t 0ne Kill",
+                        "increases": "The first shot from a fully loaded magazine deals damage"
+                    }
+                },
+                {
+                    "img":"assassin-sniping-5.png",
+                    "assignedScore":0,
+                    "remainingScore": 1,
+                    "dataBase": 100,
+                    "dataWin": 0,
+                    "description":{
+                    "name": "B0re",
+                    "increases": "Shots pierce through enemies, gaining damage per enemy pierced. Enemy crit locations highlighted in Decepti0n"
+                    }
+                },
+                {
+                    "img":"assassin-sniping-6.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 4,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Vel0city",
+                        "increases": "Critical Hit Damage"
+                    }
+                }
+            ]
+        },
+        {
+            "level":3,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-sniping-7.png",
+                    "assignedScore":0,
+                    "remainingScore": 5,
+                    "dataBase": 20,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "Kill C0nfirmed",
+                        "increases": "Bullet Speed"
+                    }
+                }
+            ]
+        },
+        {
+            "level":4,
+            "status":0,
+            "skills":[
+                {
+                    "img":"assassin-sniping-8.png",
+                    "assignedScore":0,
+                    "remainingScore": 1,
+                    "dataBase": 8,
+                    "dataWin": 0,
+                    "description":{
+                        "name": "At 0ne with the Gun",
+                        "increases": "Critical Hit Damage depending on how long you aim down the sights"
+                    }
+                }
+            ]
+        }
+    ]
+}

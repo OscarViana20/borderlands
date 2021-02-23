@@ -1,0 +1,8 @@
+[
+    {
+        "stateName": "menu",
+        "urlPrefix": "/menu",
+        "type": "load",
+        "src": "components/game/components/menu/menu"
+    }
+]

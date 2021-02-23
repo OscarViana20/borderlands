@@ -1,0 +1,18 @@
+<center>
+    <div class="header">
+        <h1>Borderlands<em>2</em></h1>
+        <h2>ZERO</h2>
+    </div>
+    <img class = "zero" ng-src = "app/assets/images/zero.png"></img>
+    <div layout = "column">
+        <div layout="row" layout-align="space-around center" style = "width: 750px; text-align: center;">
+            <div ng-repeat="skill in menuController.skills">
+                <skill-panel-directive skill = "skill"></skill-panel-directive>
+            </div>
+        </div>
+        <div class="description"></div>
+    </div>
+    <md-button class="reset" ng-click="menuController.reset()">
+        <a>reset</a>
+    </md-button>
+</center>

@@ -1,0 +1,187 @@
+body {
+    background: #CCC url(https://www.bungie.net/img/theme/destiny/bgs/gradient_green.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.zero {
+    position: absolute;
+    position: fixed;
+    height: 95%;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.header, .summary {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.header * {
+    position: relative;
+    z-index: 11;
+}
+
+.header h1 {
+    color: #FFDE09;
+    font-size: 140%;
+}
+
+.header h1 em {
+    font-style: normal;
+    font-size: 200%;
+    position: relative;
+    top: 0.15em;
+}
+
+.header h2 {
+    color: #FBB406;
+    font-size: 150%;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.treewrapper {
+    float: left;
+    width: 247px;
+    height: 396px;
+}
+
+.panel {
+    position: absolute;
+    height: 396px;
+    width: 247px;
+    background: url("../images/skill_bg.png") transparent;
+}
+
+.tree {
+    width: 174px;
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+.skill {
+    padding: 3px;
+    width: 52px;
+    height: 53px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+}
+
+.skill>img {
+    width: 52px;
+    height: 53px;
+}
+
+.legend {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17pt;
+    color: white;
+    text-shadow: black 0 0 4px;
+    position: absolute;
+    display: block;
+    width: 174px;
+    top: 450px;
+}
+
+.spining{
+    text-align: center;
+    color : #41974D;
+}
+
+.cunning{
+    text-align: center;
+    color : #135252;
+}
+
+.bloodshed{
+    text-align: center;
+    color: darkred;
+}
+
+.totalScore{
+    font-size: 17pt;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    left: -10px;
+    top: 80px;
+    z-index: 2;
+    position: relative;
+    clear: both;
+}
+
+/***********************************************
+*****************SKILLS************************
+***********************************************/
+
+.skill-points {
+    position: absolute;
+    width: 35px;
+    height: 21px;
+    line-height: 21px;
+    bottom: 0;
+    right: 0;
+    padding: 0 2px;
+    color: #ffffff;
+    background: url("../images/points.png") transparent;
+}
+
+.skill.partial .skill-points { color: #F80; }
+.skill.full .skill-points { color: #0B0; }
+
+
+/***********************************************
+**********SKILL DESCRIPTION*********************
+***********************************************/
+
+.description {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    color: white;
+    -webkit-box-shadow: 1px 1px 2px #ccc;
+    box-shadow: 1px 1px 2px #ccc;
+    z-index: 1000;
+    text-align: center;
+    background-color: #111;
+    padding: 0 0.25em 0.5em;
+}
+
+.description h2 {
+    padding: 0.15em 0;
+    margin-bottom: 0.15em;
+    font-size: 125%;
+    border-bottom: 1px solid gray;
+}
+
+.description em {
+    color: #F80;
+}
+
+em {
+    font-style: normal;
+}
+
+.show {
+    display: block;
+}
+
+.reset{
+    background-color: cadetblue !important;
+}
