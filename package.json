@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "start:dev": "gulp",
-    "start": "node server.js",
+    "start": "npm install node server.js",
     "postinstall": "jspm install --yes",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -62,14 +62,6 @@
       "babel": "npm:babel-core@^5.8.22",
       "babel-runtime": "npm:babel-runtime@^5.1.13",
       "core-js": "npm:core-js@^0.9.4"
-    },
-    "overrides": {
-      "github:Templarian/MaterialDesign-Webfont@1.2.65": {
-        "main": "css/materialdesignicons.min.css!"
-      },
-      "github:driftyco/ionicons@2.0.1": {
-        "main": "css/ionicons.min.css!"
-      }
     }
   },
   "dependencies": {
