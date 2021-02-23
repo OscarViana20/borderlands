@@ -29,7 +29,7 @@ gulp2.default.task("copy_jspm_packages", function () {
       "public/jspm_packages/system.js",
       "public/jspm_packages/system.src.js",
       "public/jspm_packages/es6-module-loader.js",
-      "public/jspm_packages/**/**/external-helpers.js"])
+      "public/jspm_packages/**/**/"])
     .pipe(gulp2.default.dest("dist/jspm_packages"));
 });
 
