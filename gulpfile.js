@@ -8,7 +8,6 @@ var runSequence = require("run-sequence");
 var runSequence2 = _interopRequireDefault(runSequence);
 var gulpMinify = require("gulp-minify");
 var gulpMinify2 = _interopRequireDefault(gulpMinify);
-var ghPages = require('gulp-gh-pages');
 
 /**
 * Esto cargara archivos que se encuentran dentro del directorio
@@ -57,12 +56,6 @@ gulp2.default.task("dist", ["minify_config"], function (callback) {
     var tasks = new Array(["copy_index", "copy_app", "copy_assets", "copy_jspm_packages"]);
     tasks.push(callback);
     return runSequence2.default.apply(undefined, tasks);
-});
-
-gulp2.default.task('deploy', function() {
-
-  return gulp2.default.src('dist/**/*.*')
-    .pipe(ghPages());
 });
 
 gulp.task('default', ['watch']);
