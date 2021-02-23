@@ -7,7 +7,6 @@
     "start:dev": "gulp",
     "prestart": "npm install",
     "postinstall": "jspm install --yes",
-    "build": "gulp dist",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
